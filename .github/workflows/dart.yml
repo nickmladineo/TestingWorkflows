@@ -7,5 +7,5 @@ jobs:
     - name: build
       run: | 
         chmod +x "${GITHUB_WORKSPACE}/build.sh"
-        "${GITHUB_WORKSPACE}/.github/script.sh"
+        "${GITHUB_WORKSPACE}/build.sh"
         echo %errorlevel%
