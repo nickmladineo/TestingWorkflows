@@ -7,3 +7,4 @@ jobs:
     - name: build
     - run: 
     "chmod +x "${GITHUB_WORKSPACE}/.github/script.sh"
+    shell: bash
