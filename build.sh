@@ -1,2 +1,4 @@
 #!/bin/bash
-exit 127
+cd helloworld
+flutter build apk
+exit 0
