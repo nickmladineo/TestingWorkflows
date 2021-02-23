@@ -16,5 +16,5 @@ jobs:
     - run: flutter pub get
     # Build :D 
     - run: |
-      cd helloworld/
-      flutter build apk
+        cd helloworld/
+        flutter build apk
