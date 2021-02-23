@@ -5,6 +5,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1 
     - name: build
-    run: 
-    "chmod +x "${GITHUB_WORKSPACE}/.github/script.sh"
-    shell: bash
+      run: |
+        chmod +x "${GITHUB_WORKSPACE}/.github/script.sh
+      shell: bash
